@@ -138,12 +138,12 @@ function CreatorIntro() {
                   <p className="text-orange-300 font-medium">
                     Content Creator & Mentor
                   </p>
-                  <div className="flex items-center justify-center gap-2 mt-3">
+                  {/* <div className="flex items-center justify-center gap-2 mt-3">
                     <Star className="w-4 h-4 text-yellow-400 fill-current" />
                     <span className="text-white text-sm">
                       4.9/5 • 500+ Sessions
                     </span>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Benefits */}
@@ -277,7 +277,7 @@ function CreatorIntro() {
 
                   {/* Button Content */}
                   <a
-                    href="https://wa.link/efbodm"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeG0td7pb273qQiXgLBwzokURBMHjKGpY5wnRVsnqIfAnsC6Q/viewform"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -327,7 +327,7 @@ function CreatorIntro() {
               </motion.div>
 
               {/* Trust Indicators */}
-              <motion.div
+              {/* <motion.div
                 className="mt-8 flex items-center justify-center lg:justify-start gap-6"
                 initial={{ opacity: 0 }}
                 animate={isInView ? { opacity: 1 } : { opacity: 0 }}
@@ -347,7 +347,7 @@ function CreatorIntro() {
                   <div className="text-2xl font-bold text-white">24h</div>
                   <div className="text-sm text-gray-400">Response Time</div>
                 </div>
-              </motion.div>
+              </motion.div> */}
             </motion.div>
           </div>
         </div>

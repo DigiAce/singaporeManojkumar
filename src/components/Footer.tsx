@@ -122,7 +122,7 @@ const Footer: React.FC = () => {
             </div>
 
             {/* Legal Links */}
-            <div className="flex gap-6 text-gray-600 text-sm">
+            {/* <div className="flex gap-6 text-gray-600 text-sm">
               <motion.a
                 href="#contact"
                 className="hover:text-slate-900 transition-colors"
@@ -146,7 +146,7 @@ const Footer: React.FC = () => {
               >
                 Terms
               </motion.a>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -158,7 +158,7 @@ const Footer: React.FC = () => {
             animate={{ opacity: 0.1 }}
             transition={{ duration: 1 }}
           >
-            MANOJ
+            MANOJ KUMAR
           </motion.h3>
         </div>
       </div>

@@ -341,7 +341,7 @@ const ContactSection = () => {
               </motion.div>
 
               {/* Phone Card */}
-              <motion.div
+              {/* <motion.div
                 className="bg-white/80 backdrop-blur-lg rounded-2xl p-6 shadow-xl border border-white/20 hover:shadow-2xl transition-all"
                 whileHover={{ scale: 1.02, y: -5 }}
               >
@@ -364,7 +364,7 @@ const ContactSection = () => {
                     </span>
                   </div>
                 </div>
-              </motion.div>
+              </motion.div> */}
 
               {/* Location Card */}
               <motion.div
@@ -418,6 +418,7 @@ const ContactSection = () => {
                   className="flex items-center space-x-3 p-4 bg-gradient-to-r from-pink-500 to-rose-500 text-white rounded-xl hover:from-pink-600 hover:to-rose-600 transition-all"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  target="_blank"
                 >
                   <Instagram className="w-5 h-5" />
                   <span className="font-medium">Instagram</span>
@@ -427,6 +428,7 @@ const ContactSection = () => {
                   className="flex items-center space-x-3 p-4 bg-gradient-to-r from-red-500 to-red-600 text-white rounded-xl hover:from-red-600 hover:to-red-700 transition-all"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  target="_blank"
                 >
                   <Youtube className="w-5 h-5" />
                   <span className="font-medium">YouTube</span>
@@ -436,6 +438,7 @@ const ContactSection = () => {
                   className="flex items-center space-x-3 p-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  target="_blank"
                 >
                   <Facebook className="w-5 h-5" />
                   <span className="font-medium">Facebook</span>
@@ -445,6 +448,7 @@ const ContactSection = () => {
                   className="flex items-center space-x-3 p-4 bg-gradient-to-r from-sky-400 to-sky-500 text-white rounded-xl hover:from-sky-500 hover:to-sky-600 transition-all"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  target="_blank"
                 >
                   <Twitter className="w-5 h-5" />
                   <span className="font-medium">Tiktok</span>

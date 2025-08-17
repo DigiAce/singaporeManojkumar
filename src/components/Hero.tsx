@@ -313,11 +313,11 @@ const AnimatedHero: React.FC = () => {
           >
             <div className="font-medium flex items-center gap-2">
               <Zap className="w-4 h-4 text-orange-400" />
-              Copyright © 2024 Manoj Kumar. All Rights Reserved
+              Copyright © 2025 Manoj Kumar. All Rights Reserved
             </div>
-            <div className="text-gray-400 text-xs mt-1">
+            {/* <div className="text-gray-400 text-xs mt-1">
               Privacy Policy | Terms | Contact
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Enhanced Social Links */}

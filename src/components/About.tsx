@@ -600,7 +600,7 @@ const About: React.FC = () => {
             <span className="text-mobile-primary">Click the Button Below</span>
           </motion.h3>
           <a
-            href="https://wa.link/efbodm"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeG0td7pb273qQiXgLBwzokURBMHjKGpY5wnRVsnqIfAnsC6Q/viewform"
             target="_blank"
             rel="noopener noreferrer"
           >

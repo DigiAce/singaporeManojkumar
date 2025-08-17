@@ -160,7 +160,7 @@ const Navbar: React.FC = () => {
         {/* Get Started Button */}
 
         <a
-          href="https://wa.link/efbodm"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeG0td7pb273qQiXgLBwzokURBMHjKGpY5wnRVsnqIfAnsC6Q/viewform"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -170,7 +170,7 @@ const Navbar: React.FC = () => {
             whileTap={{ scale: 0.98 }}
             onClick={closeMobileMenu}
           >
-            Get Started
+            Register Now
           </motion.button>
         </a>
 
@@ -277,7 +277,7 @@ const Navbar: React.FC = () => {
                 {/* Mobile Get Started */}
                 <div className="p-6 border-t border-gray-100">
                   <a
-                    href="https://wa.link/efbodm"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeG0td7pb273qQiXgLBwzokURBMHjKGpY5wnRVsnqIfAnsC6Q/viewform"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -287,7 +287,7 @@ const Navbar: React.FC = () => {
                       whileTap={{ scale: 0.98 }}
                       onClick={closeMobileMenu}
                     >
-                      Get Started on WhatsApp
+                      Register Now
                     </motion.button>
                   </a>
                 </div>

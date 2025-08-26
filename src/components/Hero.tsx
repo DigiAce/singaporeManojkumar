@@ -214,14 +214,14 @@ const AnimatedHero: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                NOJ KU
+                NOJ ME
               </motion.span>
               <motion.span
                 className="bg-gradient-to-r from-orange-400 via-amber-400 to-orange-500 bg-clip-text text-transparent"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                MAR
+                DIA
               </motion.span>
             </motion.div>
 
@@ -266,7 +266,7 @@ const AnimatedHero: React.FC = () => {
 
               <img
                 src="/img/main-manoj.png"
-                alt="Manoj Kumar - Content Creator"
+                alt="Manoj Media - Content Creator"
                 className="h-[1000px] md:h-[800px] lg:h-[900px] w-full object-contain object-bottom relative z-50s"
                 style={{
                   filter:
@@ -313,7 +313,7 @@ const AnimatedHero: React.FC = () => {
           >
             <div className="font-medium flex items-center gap-2">
               <Zap className="w-4 h-4 text-orange-400" />
-              Copyright © 2025 Manoj Kumar. All Rights Reserved
+              Copyright © 2025 Manoj Media. All Rights Reserved
             </div>
             {/* <div className="text-gray-400 text-xs mt-1">
               Privacy Policy | Terms | Contact

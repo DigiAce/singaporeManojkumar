@@ -160,7 +160,7 @@ const ContactSection = () => {
                 >
                   Hi! I am{" "}
                   <span className="bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent font-bold">
-                    Manoj Kumar
+                    Manoj Media
                   </span>
                 </motion.p>
                 <motion.p

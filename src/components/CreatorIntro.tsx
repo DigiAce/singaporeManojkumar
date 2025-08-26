@@ -112,7 +112,7 @@ function CreatorIntro() {
                   >
                     <img
                       src="/img/solo.JPEG"
-                      alt="Manoj Kumar"
+                      alt="Manoj Media"
                       className="w-20 h-20 rounded-full object-cover"
                     />
                   </motion.div>
@@ -133,7 +133,7 @@ function CreatorIntro() {
                 {/* Personal Info */}
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-white mb-2">
-                    Manoj Kumar
+                    Manoj Media
                   </h3>
                   <p className="text-orange-300 font-medium">
                     Content Creator & Mentor

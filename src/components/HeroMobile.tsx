@@ -168,7 +168,7 @@ const HeroMobile = () => {
           <h1 className="text-4xl sm:text-5xl font-black leading-tight tracking-tight">
             <span className="text-amber-400">MANOJ </span>
             {/* <span className="name-outline text-amber-400"></span> */}
-            <span className="text-amber-400">KUMAR</span>
+            <span className="text-amber-400">MEDIA</span>
           </h1>
         </motion.div>
 
@@ -205,7 +205,7 @@ const HeroMobile = () => {
         >
           <img
             src="/img/main-manoj.png"
-            alt="Manoj Kumar"
+            alt="Manoj Media"
             className="h-[700px] w-auto object-contain"
             style={{
               filter: "drop-shadow(0 10px 15px rgba(0,0,0,0.3))",

@@ -118,7 +118,13 @@ const Footer: React.FC = () => {
             {/* Initiated by section */}
             <div className="flex items-center gap-2">
               <span className="text-gray-500 text-sm">Developed by</span>
-              <span className="font-bold text-slate-900">DIGIACE</span>
+              <a
+                href="https://www.digiace.in"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="font-bold text-slate-900">DIGIACE</span>
+              </a>
             </div>
 
             {/* Legal Links */}
@@ -158,7 +164,7 @@ const Footer: React.FC = () => {
             animate={{ opacity: 0.1 }}
             transition={{ duration: 1 }}
           >
-            MANOJ KUMAR
+            Manoj Media
           </motion.h3>
         </div>
       </div>

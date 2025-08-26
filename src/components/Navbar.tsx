@@ -95,7 +95,7 @@ const Navbar: React.FC = () => {
             <span
               className={`font-bold text-xl transition-colors duration-300 ${getTextColor()}`}
             >
-              Manoj
+              Manoj Media
             </span>
           </Link>
         </motion.div>

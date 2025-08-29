@@ -5,6 +5,8 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Zap, Menu, X } from "lucide-react";
+import logo1 from "/img/logo1.png"; // Default white logo
+import logo2 from "/img/logo2.png"; // Scrolled orange logo
 
 interface NavLink {
   id: string;
@@ -83,15 +85,20 @@ const Navbar: React.FC = () => {
           transition={{ type: "spring", stiffness: 300 }}
         >
           <Link to="/" className="flex items-center gap-3">
-            <div
-              className={`w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center shadow-md transition-all duration-300 ${
-                isScrolled || !isHome
-                  ? "bg-orange-500"
-                  : "bg-white/20 backdrop-blur-sm border border-white/30"
-              }`}
-            >
-              <Zap className={`w-4 h-4 sm:w-6 sm:h-6 ${getIconColor()}`} />
+            {/* Logo Container */}
+            <div className="flex items-center">
+              <img
+                src={
+                  isScrolled || !isHome
+                    ? logo2 // Show orange logo when scrolled
+                    : logo1 // Show white logo by default
+                }
+                alt="Logo"
+                className="w-10 h-10 sm:w-12 sm:h-12 object-contain transition-all duration-300"
+              />
             </div>
+
+            {/* Brand Name */}
             <span
               className={`font-bold text-xl transition-colors duration-300 ${getTextColor()}`}
             >

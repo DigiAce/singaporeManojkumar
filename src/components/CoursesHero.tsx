@@ -97,7 +97,7 @@ const CoursesHero: React.FC = () => {
 
           {/* Main Heading */}
           <motion.h1
-            className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 leading-tight"
+            className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-black mb-6 leading-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
@@ -106,7 +106,9 @@ const CoursesHero: React.FC = () => {
               delay: 0.5,
             }}
           >
-            <span className="text-slate-900">Master Content Creation</span>
+            <span className="text-slate-900">
+              Mobile content creation challenge for beginners
+            </span>
             <br />
             <motion.span
               className="bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent font-black"
